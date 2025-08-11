@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
-import App from '../../App';
-import MovieDetailsPage from "../../pages/MovieDetailsPage.tsx";
-import MoviesPage from "../../pages/MoviesPage.tsx";
+import App from '../App.tsx';
+import MovieDetailsPage from "../pages/MovieDetailsPage.tsx";
+import MoviesPage from "../pages/MoviesPage.tsx";
 
 // Create the application's routing configuration
 export const routes = createBrowserRouter([
